@@ -12,6 +12,9 @@ export default {
                         fields: ['id']
                     }
                 },
+                sort: {
+                    order: 'asc'
+                },
                 status: 'published'
             }) as ICategory[]
 
